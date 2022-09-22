@@ -1,0 +1,557 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Metrophobic&display=swap");
+a {
+  text-decoration: none;
+  color: #0E0E10;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+a:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+button {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #0E0E10;
+}
+
+button:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+}
+
+::-moz-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+}
+
+:-ms-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+}
+
+:-moz-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #0E0E10;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+body {
+  background: #F9F9F9;
+}
+
+button {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+button:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+.login-main {
+  width: 100%;
+  background: #F9F9F9;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-y: hidden;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow-y: scroll;
+}
+
+.login-main .image-container {
+  width: 70%;
+  height: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: left;
+}
+
+.login-main .right-container {
+  min-width: 30%;
+  max-width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-main .right-container .ll-white {
+  display: none;
+}
+
+.login-main .right-container .container {
+  width: 80%;
+  min-width: 300px;
+  padding: 30px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: auto;
+  max-height: 80vh;
+  transition: all 0.3s ease;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 12px 44px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 12px 44px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.login-main .right-container .container .switch {
+  padding: 12px 15px;
+  background: #EAEAEA;
+  border-radius: 5px;
+  width: 190px;
+  min-height: 50px;
+  max-height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.login-main .right-container .container .switch .switcher {
+  position: absolute;
+  left: 6px;
+  width: 90px;
+  height: 50px;
+  border-radius: 5px;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background: #FFAE42;
+}
+
+.login-main .right-container .container .switch button {
+  background: unset;
+  outline: unset;
+  border: unset;
+  font-size: 18px;
+  z-index: 10;
+  cursor: pointer;
+  margin: 0 10px;
+  color: #0E0E10;
+}
+
+.login-main .right-container .container .switch #login-btn {
+  color: white;
+  font-weight: 600;
+}
+
+.login-main .right-container .container .inner-container {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #bbbbbb;
+  overflow-y: scroll;
+  width: 85%;
+  position: relative;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+.login-main .right-container .container .inner-container::-webkit-scrollbar {
+  width: 5px;
+}
+
+.login-main .right-container .container .inner-container::-webkit-scrollbar-track {
+  background: unset;
+}
+
+.login-main .right-container .container .inner-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+
+.login-main .right-container .container .inner-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.login-main .right-container .container .inner-container #login-form {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.login-main .right-container .container .inner-container #login-form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px 0;
+}
+
+.login-main .right-container .container .inner-container #login-form div input[type="text"] {
+  margin-top: 3px;
+  padding: 10px 5px;
+  border: 1.5px solid #828282;
+  border-radius: 5px;
+  font-size: 18px;
+  outline: none;
+}
+
+.login-main .right-container .container .inner-container #login-form div input[type="text"]:focus-visible, .login-main .right-container .container .inner-container #login-form div input[type="text"]:focus-within {
+  border: 3px solid #ffad4293;
+}
+
+.login-main .right-container .container .inner-container #login-form div .password-input {
+  margin-top: 3px;
+  padding: 10px 5px;
+  border: 1.5px solid #828282;
+  border-radius: 5px;
+  font-size: 18px;
+  outline: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.login-main .right-container .container .inner-container #login-form div .password-input:focus-visible, .login-main .right-container .container .inner-container #login-form div .password-input:focus-within {
+  border: 3px solid #ffad4293;
+}
+
+.login-main .right-container .container .inner-container #login-form div .password-input input {
+  all: unset;
+  width: 100%;
+  height: 100%;
+}
+
+.login-main .right-container .container .inner-container #login-form div .password-input svg {
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.login-main .right-container .container .inner-container #login-form div .password-input #l-hide-pd,
+.login-main .right-container .container .inner-container #login-form div .password-input #l-hide-pd {
+  display: none;
+}
+
+.login-main .right-container .container .inner-container #login-form button {
+  background: #FFAE42;
+  border-radius: 5px;
+  outline: unset;
+  border: unset;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 22px;
+}
+
+.login-main .right-container .container .inner-container #register-form {
+  width: 100%;
+  display: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  height: 100%;
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.login-main .right-container .container .inner-container #register-form .sr {
+  width: 100%;
+  font-family: "Metrophobic", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.login-main .right-container .container .inner-container #register-form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px 0;
+}
+
+.login-main .right-container .container .inner-container #register-form div input[type="text"],
+.login-main .right-container .container .inner-container #register-form div .c-password-input,
+.login-main .right-container .container .inner-container #register-form div .password-input,
+.login-main .right-container .container .inner-container #register-form div select {
+  margin-top: 3px;
+  padding: 10px 5px;
+  border: 1.5px solid #828282;
+  outline: none;
+  border-radius: 5px;
+  font-size: 18px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+.login-main .right-container .container .inner-container #register-form div input[type="text"]:focus-visible, .login-main .right-container .container .inner-container #register-form div input[type="text"]:focus-within,
+.login-main .right-container .container .inner-container #register-form div .c-password-input:focus-visible,
+.login-main .right-container .container .inner-container #register-form div .c-password-input:focus-within,
+.login-main .right-container .container .inner-container #register-form div .password-input:focus-visible,
+.login-main .right-container .container .inner-container #register-form div .password-input:focus-within,
+.login-main .right-container .container .inner-container #register-form div select:focus-visible,
+.login-main .right-container .container .inner-container #register-form div select:focus-within {
+  border: 3px solid #ffad4293;
+}
+
+.login-main .right-container .container .inner-container #register-form div input[type="text"]::-webkit-scrollbar,
+.login-main .right-container .container .inner-container #register-form div .c-password-input::-webkit-scrollbar,
+.login-main .right-container .container .inner-container #register-form div .password-input::-webkit-scrollbar,
+.login-main .right-container .container .inner-container #register-form div select::-webkit-scrollbar {
+  width: 5px;
+}
+
+.login-main .right-container .container .inner-container #register-form div input[type="text"]::-webkit-scrollbar-track,
+.login-main .right-container .container .inner-container #register-form div .c-password-input::-webkit-scrollbar-track,
+.login-main .right-container .container .inner-container #register-form div .password-input::-webkit-scrollbar-track,
+.login-main .right-container .container .inner-container #register-form div select::-webkit-scrollbar-track {
+  background: unset;
+}
+
+.login-main .right-container .container .inner-container #register-form div input[type="text"]::-webkit-scrollbar-thumb,
+.login-main .right-container .container .inner-container #register-form div .c-password-input::-webkit-scrollbar-thumb,
+.login-main .right-container .container .inner-container #register-form div .password-input::-webkit-scrollbar-thumb,
+.login-main .right-container .container .inner-container #register-form div select::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+  border-radius: 20px;
+}
+
+.login-main .right-container .container .inner-container #register-form div input[type="text"]::-webkit-scrollbar-thumb:hover,
+.login-main .right-container .container .inner-container #register-form div .c-password-input::-webkit-scrollbar-thumb:hover,
+.login-main .right-container .container .inner-container #register-form div .password-input::-webkit-scrollbar-thumb:hover,
+.login-main .right-container .container .inner-container #register-form div select::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.login-main .right-container .container .inner-container #register-form div .c-password-input,
+.login-main .right-container .container .inner-container #register-form div .password-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.login-main .right-container .container .inner-container #register-form div .c-password-input input,
+.login-main .right-container .container .inner-container #register-form div .password-input input {
+  all: unset;
+  width: 100%;
+  height: 100%;
+}
+
+.login-main .right-container .container .inner-container #register-form div .c-password-input svg,
+.login-main .right-container .container .inner-container #register-form div .password-input svg {
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.login-main .right-container .container .inner-container #register-form div .c-password-input #c-hide-pd,
+.login-main .right-container .container .inner-container #register-form div .c-password-input #p-hide-pd,
+.login-main .right-container .container .inner-container #register-form div .password-input #c-hide-pd,
+.login-main .right-container .container .inner-container #register-form div .password-input #p-hide-pd {
+  display: none;
+}
+
+.login-main .right-container .container .inner-container #register-form .hostel-category-radio-container {
+  /* appearance for checked radiobutton */
+}
+
+.login-main .right-container .container .inner-container #register-form .hostel-category-radio-container input[type="radio"] {
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  padding: 2px;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 2px solid #bbbbbb;
+  border-radius: 50%;
+  outline: unset;
+}
+
+.login-main .right-container .container .inner-container #register-form .hostel-category-radio-container input[type="radio"]:checked {
+  background-color: #FFAE42;
+}
+
+.login-main .right-container .container .inner-container #register-form .hostel-category-radio-container div {
+  margin: 0 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-main .right-container .container .inner-container #register-form .hostel-category-radio-container div label {
+  margin-left: 4px;
+  font-size: 16px;
+}
+
+.login-main .right-container .container .inner-container #register-form .hostel-category-radio-container div .hostel-womens-container {
+  margin-left: 12px;
+}
+
+.login-main .right-container .container .inner-container #register-form button {
+  background: #FFAE42;
+  border-radius: 5px;
+  outline: unset;
+  border: unset;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 22px;
+}
+
+@media (max-width: 1180px) {
+  .login-main .image-container {
+    display: none;
+  }
+  .login-main .right-container .container .ll-white {
+    display: none;
+  }
+  .login-main .right-container .container .ll-black {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .login-main .right-container .container .login-main .right-container .container .inner-container {
+    border-top: 1px solid #bbbbbb;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-main .right-container .container {
+    min-width: none;
+    height: 80%;
+  }
+}
+/*# sourceMappingURL=login-styles.css.map */
